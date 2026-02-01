@@ -34,6 +34,6 @@ public class Student extends Person {
 
     @Override
     public String getDetails() {
-        return super.getDetails() + " | Batch: " + batchName + " | Active: " + active;
+        return String.format("%s | Batch: %s | Active: %s", super.getDetails(), batchName, active);
     }
 }
