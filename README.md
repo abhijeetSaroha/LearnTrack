@@ -13,7 +13,7 @@ LearnTrack is a console-based Core Java application designed to manage Students,
 * **Architecture:** Separation of concerns using Service, Repository, and Entity layers.
 * **Data Structures:** Uses `ArrayList` for dynamic data storage (In-Memory).
 * **Error Handling:** Custom `EntityNotFoundException` for robust user feedback.
-* **Utilities:** Static ID generators for unique entity identification.
+* **Utilities:** Static ID generators for unique com.airtribe.learntrack.entity identification.
 
 ## How to Run
 Prerequisite: Java Development Kit (JDK) installed.
@@ -21,12 +21,12 @@ Prerequisite: Java Development Kit (JDK) installed.
 1.  **Compile the code:**
     Open your terminal/command prompt in the `src` folder.
     ```bash
-    javac Main.java
+    javac com.airtribe.learntrack.Main.java
     ```
 
 2.  **Run the application:**
     ```bash
-    java Main
+    java com.airtribe.learntrack.Main
     ```
 
 ## Directory Structure
